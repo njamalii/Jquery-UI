@@ -1,0 +1,32 @@
+h1 {
+    text-align: center;
+}
+h1.blue{
+    color:blue;
+    font-family: cursive;
+    font-weight: bold;
+}
+.drag-div {
+    width: 20%;
+    border: 1px solid black!important;
+    border-radius: 5px;
+}
+
+.drag-div p {
+    text-align: center;
+    font-style: italic;
+    color:red;
+}
+#dragg{
+    width:50%;
+    border:1px solid black;
+}
+#droppable{
+    width:50%;
+    border:0.5px solid rgb(54, 53, 53);
+}
+#feedback { font-size: 1.4em; }
+#selectable .ui-selecting { background: #FECA40; }
+#selectable .ui-selected { background: red; color: white; }
+#selectable { list-style-type: none; margin: 0; padding: 0; width: 60%; }
+#selectable li { margin: 3px; padding: 0.4em; font-size: 1.4em; height: 18px; }
